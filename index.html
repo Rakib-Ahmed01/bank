@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bank Project</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <main class="w-full h-screen flex justify-center items-center">
+      <section
+        class="form-container bg-cyan-300 w-2/3 flex justify-center items-center p-5 rounded"
+      >
+        <div class="w-2/3">
+          <h2 class="text-2xl text-center mb-3 font-bold text-white">Login</h2>
+          <form id="form" class="flex flex-col space-y-3">
+            <input
+              class="placeholder:text-center focus:outline-none p-1 rounded"
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter your email address"
+            />
+            <input
+              class="placeholder:text-center focus:outline-none p-1 rounded"
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Enter your password"
+            />
+            <button
+              class="bg-green-400 hover:bg-green-500 p-1 rounded text-white font-semibold transition-bg ease-in-out"
+              id="submit-btn"
+              type="reset"
+            >
+              Submit
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <script src="login.js"></script>
+  </body>
+</html>
