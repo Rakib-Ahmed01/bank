@@ -1,0 +1,10 @@
+const depositeAmount = document.querySelector(".deposite-amount");
+const withdrawAmount = document.querySelector(".withdraw-amount");
+const balanceAmount = document.querySelector(".balance-amount");
+const depositeForm = document.querySelector("#deposite");
+const withdrawForm = document.querySelector("#withdraw");
+const depositeInput = depositeForm["deposite"];
+const withdrawInput = withdrawForm["withdraw"];
+const depositeBtn = document.getElementById("deposite-btn");
+const withdrawBtn = document.getElementById("withdraw-btn");
+console.log(depositeBtn);
